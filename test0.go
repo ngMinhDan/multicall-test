@@ -83,45 +83,8 @@ func main() {
 	}
 	log.Println(res)
 
-	// res := struct {
-	// 	// currentATokenBalance     uint
-	// 	currentVariableDebt      uint
-	// 	principalStableDebt      uint
-	// 	scaledVariableDebt       uint
-	// 	stableBorrowRate         uint
-	// 	liquidityRate            uint
-	// 	stableRateLastUpdated    uint
-	// 	usageAsCollateralEnabled bool
-	// 	// returnDatas []byte
-	// }{}
-
-	// err = aaveProtocolDataProviderABI.UnpackIntoInterface(&res, "getUserReserveData", result)
-	// if err != nil {
-	// 	log.Fatal(err)
-	// 	log.Println("contractAbi.UnpackIntoInterface")
-	// }
-	// fmt.Println(res)
-
-	// res := struct {
-	// 	// currentATokenBalance     uint
-	// 	currentStableDebt        uint
-	// 	currentVariableDebt      uint
-	// 	principalStableDebt      uint
-	// 	scaledVariableDebt       uint
-	// 	stableBorrowRate         uint
-	// 	liquidityRate            uint
-	// 	stableRateLastUpdated    uint
-	// 	usageAsCollateralEnabled bool
-	// 	// returnDatas []byte
-	// }{}
-
-	// err = aaveProtocolDataProviderABI.UnpackIntoInterface(&res, "getUserReserveData", result)
-	// if err != nil {
-	// 	log.Fatal(err)
-	// 	log.Println("contractAbi.UnpackIntoInterface")
-	// }
-	// fmt.Println(res)
-
+	// KET QUA MONG MUON
+	// ===================================
 	// currentATokenBalance   uint256 :  0
 	// currentStableDebt   uint256 :  0
 	// currentVariableDebt   uint256 :  900414
@@ -131,9 +94,9 @@ func main() {
 	// liquidityRate   uint256 :  4948714111130000762018747
 	// stableRateLastUpdated   uint40 :  0
 	// usageAsCollateralEnabled   bool :  false
+	// ===================================
 
-	// 15631201 64 1 32 288 0 0 900415 false
-
-	// 1 32 288 0 0 900416 0 809287 false
+	// KET QUA DAT DUOC
+	// 2022/09/28 23:21:16 [900425 0 809287 0 4938747366840871168343614 0 0 0 false]
 
 }
