@@ -85,13 +85,15 @@ func main() {
 
 	// KET QUA MONG MUON
 	// ===================================
+
+	// [ getUserReserveData(address,address) method Response ]
 	// currentATokenBalance   uint256 :  0
 	// currentStableDebt   uint256 :  0
-	// currentVariableDebt   uint256 :  900414
+	// currentVariableDebt   uint256 :  900425
 	// principalStableDebt   uint256 :  0
 	// scaledVariableDebt   uint256 :  809287
 	// stableBorrowRate   uint256 :  0
-	// liquidityRate   uint256 :  4948714111130000762018747
+	// liquidityRate   uint256 :  4938740023396302024045531
 	// stableRateLastUpdated   uint40 :  0
 	// usageAsCollateralEnabled   bool :  false
 	// ===================================
